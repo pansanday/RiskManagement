@@ -56,10 +56,10 @@ modules:
           url: "~{srv-url}"
     build-parameters:
       requires:
-      - name: risk-management-app
-        artifacts:
-          - ./*
-        target-path: resources
+        - name: risk-management-app
+          artifacts:
+            - ./*
+          target-path: resources
   # -------------------- UI -----------------------------------
   - name: risk-management-app
   # ------------------------------------------------------------
